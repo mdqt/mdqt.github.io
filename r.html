@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>bad url redirecting with hopefully no embed</title>
+		<script>
+			let params = new URLSearchParams(location.search);
+			let url = params.get('url');
+
+			if (url) {
+				location.replace(url);
+			} else {
+				alert('no url?');
+			}
+		</script>
+	</head>
+</html>
