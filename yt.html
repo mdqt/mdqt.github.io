@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>bad yt redirect with hopefully no embed</title>
+		<script>
+			let params = new URLSearchParams(location.search);
+			let id = params.get('v');
+
+			if (id) {
+				location.replace('https://youtu.be/' + id);
+			} else {
+				alert('h');
+			}
+		</script>
+	</head>
+</html>
