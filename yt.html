@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>bad yt redirecting</title>
+		<script>
+			let params = new URLSearchParams(location.search);
+			let v = params.get('v');
+
+			if (v) {
+				location.replace(`https://www.youtube.com/watch?v=${v}`);
+			} else {
+				alert('no v?');
+			}
+		</script>
+	</head>
+</html>
