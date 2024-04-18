@@ -9,7 +9,7 @@ function boop(text) {
 }
 
 if (!query) boop("no query?");
-if (!seperator) boop("no seperator?");
+if (!separator) boop("no seperator?");
 if (!urls) boop("no urls?");
 
 display_query.innerText = query;
