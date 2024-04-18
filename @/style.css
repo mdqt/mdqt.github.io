@@ -1,0 +1,12 @@
+textarea {
+	width: 100%;
+	height: 200px;
+}
+
+fieldset {
+	max-width: 800px;
+}
+
+#output_url {
+	line-break: anywhere;
+}

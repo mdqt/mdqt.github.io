@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title>hamburger helper</title>
+</head>
+<body>
+	a badly written helper tool to create horrific @query urls
+
+	<br><br>
+
+	<fieldset>
+		<legend>the stuff</legend>
+		main url
+		<input id="input_main_url" value="https://mdqt.github.io/@">
+
+		<br>
+
+		separator
+		<input id="input_separator" value=";">
+
+		<br>
+
+		substitute
+		<input id="input_substitute" value="%s">
+
+		<br><br>
+
+		urls<br>
+		<textarea id="input_urls"></textarea>
+	</fieldset>
+
+	<fieldset>
+		<legend>the shit</legend>
+		<span id="output_url">…</span>
+	</fieldset>
+
+	<fieldset>
+		<legend>give it a spin</legend>
+		try out your little baby and see if it works
+		<br>
+		<input id="input_test_query" value="query">
+		<button id="button_test_query">go!</button>
+		<br>
+		(this will open a new tab)
+	</fieldset>
+	
+	<script src="helper.js"></script>
+</body>
+</html>
