@@ -1,5 +1,0 @@
-{
-	"tasks": {
-		"embed": "cd magic; deno --allow-read --allow-write embed.js"
-	}
-}

@@ -23,11 +23,13 @@ if (!link) {
 	document.body.append(list);
 
 	for (const [label, link] of Object.entries(links)) {
+		const display_href = link.href.split("://", 2)[1];
+
 		const html = (`
 			<div class="item">
 				<b>${label}</b>
 				<br>
-				<sup>(<a href="${link.href}">${link.href}</a>)</sup>
+				<sup>(<a href="${link.href}">${display_href}</a>)</sup>
 				<br>
 				${link.text?.join("<br>") || "<i>No description.</i>"}
 			</div>

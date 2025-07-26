@@ -1,0 +1,5 @@
+{
+	"tasks": {
+		"embed": "deno --allow-read --allow-write embed.js"
+	}
+}
